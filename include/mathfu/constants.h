@@ -52,10 +52,14 @@ namespace mathfu {
 
 /// 21 digits of Pi (20 after the decimal point).
 static constexpr float kPi = 3.14159265358979323846f;
+/// 21 digits of e^1 (20 after the decimal point);
+static constexpr float kE  = 2.71828182845904523602f;
 /// Multiplication value to convert degrees to radians.
 static constexpr float kDegreesToRadians = kPi / 180.0f;
 /// Multiplication value to convert radians to degrees.
 static constexpr float kRadiansToDegrees = 180.0f / kPi;
+//
+static constexpr float kE = 2.7182818284590452353602f;
 
 /// 2-dimensional <code>float</code> Vector of zeros.
 static const Vector<float, 2> kZeros2f(0.0f, 0.0f);
